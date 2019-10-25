@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://localhost/movies">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getMovieRequest>
+            <gs:name>Flash</gs:name>
+        </gs:getMovieRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
